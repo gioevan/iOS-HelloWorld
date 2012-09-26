@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface HWViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+
 @property (weak, nonatomic) IBOutlet UILabel *label;
+
 - (IBAction)createGreeting:(id)sender;
+
 @property (weak, nonatomic) NSString *userName;
 @end

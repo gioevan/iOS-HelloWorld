@@ -38,4 +38,11 @@
                           initWithFormat:@"Hello, %@!", nameString];
     self.label.text = greeting;
 }
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    if (textField == self.textField){
+        [textField resignFirstResponder];
+    }
+    return YES;
+}
+
 @end
