@@ -12,5 +12,5 @@
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 - (IBAction)createGreeting:(id)sender;
-
+@property (weak, nonatomic) NSString *userName;
 @end
